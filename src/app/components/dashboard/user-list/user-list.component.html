@@ -1,0 +1,5 @@
+<div class="flex flex-col bg-white rounded p-6 border">
+    <h2 class="font-medium uppercase text-sm mb-4">List of users</h2>
+    <app-user-item *ngFor="let user of users" [user]="user">
+    </app-user-item>
+</div>
